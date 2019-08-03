@@ -171,7 +171,12 @@ public class ExcelImportHandler {
             return list;
         }
 
-
+        /**
+         * 处理excel头部
+         *
+         * @param row
+         * @return
+         */
         private List<String> getSheetHead(Row row) {
             List<String> header = new LinkedList<>();
             for (int i = 0; i < totalCells; i++) {
