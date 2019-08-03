@@ -18,4 +18,9 @@ dependencies {
 	
 	implementation 'org.springframework.boot:spring-boot-starter'
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
+
+	// excel 解析
+	implementation('org.apache.poi:poi:3.17')
+	implementation('org.apache.poi:poi-ooxml:3.17')
+	
 }
